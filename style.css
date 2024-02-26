@@ -129,7 +129,7 @@ img {
     .container {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        /*FIX: align-items: flex-end; */
     }
     em {
         font-size: 36px;
