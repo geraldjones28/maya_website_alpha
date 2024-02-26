@@ -118,6 +118,27 @@ img {
     }
 }
 
+.quote-section {
+    background: #e5e7eb;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    em {
+        font-size: 36px;
+        font-weight: lighter;
+        color: #1f2937;
+    }
+    strong {
+        font-size: 22px;
+    }
+}
+
 @media(max-width: 768px) {
     .header .container {
         flex-direction: column;
