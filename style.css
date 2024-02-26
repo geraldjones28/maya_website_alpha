@@ -26,12 +26,12 @@ img {
 }
 
 .navbar {
-    background: #1f2937;
+    background: #371f29;
     height: 60px;
     .logo {
-        color: #f9faf8;
-        font-size: 24px;
-        font-weight: bold;
+        width: 65px;
+        margin-top: auto;
+        padding: 5px;
     }
     a, li {
         color: #e5e7eb;
@@ -39,7 +39,7 @@ img {
         text-decoration: none;
         list-style-type: none;
         :hover {
-            color: lightblue;
+            color: lightcoral;
         }
     }
     .container {
@@ -57,7 +57,7 @@ img {
 }
 
 .header {
-    background: #1f2937;
+    background: #371f29;
     min-height: 400px;
     h1 {
         font-size: 48px;
