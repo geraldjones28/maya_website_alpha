@@ -153,8 +153,6 @@ img {
     .left-text {
         background: #3882f6;
         color: #fff;
-        display: flex;
-        flex-direction: column;
         padding: 20px 80px;
         p {
             color:#e5e7eb
@@ -167,6 +165,13 @@ img {
         padding: 2px 20px;
         margin: 35px;
         border-radius: 4px;
+    }
+}
+
+.footer {
+    background: #1f2937;
+    p {
+        color: #fff;
     }
 }
 
