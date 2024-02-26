@@ -169,7 +169,11 @@ img {
 }
 
 .footer {
+    min-height: 100px;
     background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     p {
         color: #fff;
     }
