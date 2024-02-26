@@ -1,0 +1,9 @@
+img {
+    width: 300px;
+}
+
+.box-section {
+    img {
+        width: 200px;
+    }
+}
