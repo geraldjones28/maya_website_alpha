@@ -120,16 +120,18 @@ img {
     }
 }
 
-.quote-section {
+.reviews-section {
     background: #e5e7eb;
     min-height: 450px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     .container {
         display: flex;
         flex-direction: column;
-        /*FIX: align-items: flex-end; */
+        align-items: flex-end;
+        margin-top: 30px;
     }
     em {
         font-size: 36px;
@@ -148,12 +150,12 @@ img {
     align-items: center;
     .container {
         display: flex;
-        background: #3882f6;
+        background: #512e3c;
         padding: 10px 35px;
         border-radius: 4px;
     }
     .left-text {
-        background: #3882f6;
+        background: #512e3c;
         color: #fff;
         padding: 20px 80px;
         p {
@@ -162,7 +164,7 @@ img {
     }
     button {
         color: #fff;
-        background: #3882f6;
+        background: #6a3c4e;
         border: white solid;
         padding: 2px 20px;
         margin: 35px;
@@ -172,7 +174,7 @@ img {
 
 .footer {
     min-height: 100px;
-    background: #1f2937;
+    background: #371f29;
     display: flex;
     justify-content: center;
     align-items: center;
